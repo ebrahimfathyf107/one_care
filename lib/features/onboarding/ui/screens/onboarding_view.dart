@@ -1,0 +1,15 @@
+import 'package:flutter/material.dart';
+
+import '../../../../core/customs/custom_scaffold.dart';
+import '../widgets/on_boarding_view_body.dart';
+
+class OnBoardingView extends StatelessWidget {
+  const OnBoardingView({super.key});
+  static const String routeName = "/on_boarding_view";
+  @override
+  Widget build(BuildContext context) {
+    return CustomScaffold(
+      body: OnBoardingViewBody(),
+    );
+  }
+}
